@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-ssg-vs-ssr-demo",
+  "version": "0.0.0",
+  "description": "Next.js SSG vs SSR demo app.",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Next.js",
+    "React",
+    "SSR"
+  ],
+  "author": "Anton Bahurinsky",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
