@@ -1,6 +1,6 @@
 {
   "name": "nextjs-ssg-vs-ssr-demo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Next.js SSG vs SSR demo app.",
   "scripts": {
     "dev": "next",
