@@ -2,6 +2,7 @@
 /*
 
 # except
+!components/
 !pages/
 !.gitignore
 !package-lock.json
