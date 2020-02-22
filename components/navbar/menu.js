@@ -5,6 +5,21 @@ export default function Menu() {
     <ul className="navbar-nav">
       <li className="nav-item">
         <ActiveLink
+          href="/ssg/blog"
+          label="Blog SSG"
+        />
+      </li>
+
+      <li className="nav-item">
+        <ActiveLink
+          href="/ssr/blog"
+          label="Blog SSR"
+          isStatic
+        />
+      </li>
+
+      <li className="nav-item">
+        <ActiveLink
           href="/metrics"
           label="Metrics"
         />
