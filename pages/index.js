@@ -1,3 +1,8 @@
+import Link from 'next/link';
+
+/**
+ * Homepage component.
+ */
 function Homepage() {
   return (
     <div>
@@ -11,8 +16,15 @@ function Homepage() {
 
           <p>
             You are now at the app <b>homepage</b>. This page doesn't fetch 
-            any back-end data and represents a <i>lightweight initial 
-            page</i> of a Next.js app.
+            any back-end data and represents a lightweight initial 
+            page of a Next.js app.
+          </p>
+
+          <p>
+            The <b>blog page</b> fetches list of articles from backend server. 
+            It demonstrates and compares asynchronous article fetching from 
+            the <Link href="/ssg/blog"><a>static page</a></Link> versus 
+            the <a href="/ssr/blog">server-side rendered page</a>.
           </p>
 
           <p>
