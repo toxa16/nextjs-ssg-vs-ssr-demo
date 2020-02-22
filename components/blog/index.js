@@ -1,6 +1,9 @@
 import ArticleCard from './article-card';
 import Loading from './loading';
 
+/**
+ * Blog presentational component.
+ */
 export default function Blog({ articles }) {
   function renderArticles() {
     return articles.map((x, i) => (

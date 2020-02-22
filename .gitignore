@@ -4,8 +4,10 @@
 # except
 !backend/
 !components/
+!lib/
 !pages/
 !.gitignore
+!next.config.js
 !package-lock.json
 !package.json
 !README.md

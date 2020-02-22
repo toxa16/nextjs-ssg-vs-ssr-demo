@@ -1,3 +1,6 @@
+/**
+ * Article card component.
+ */
 export default function ArticleCard({ title, date, excerpt }) {
   return (
     <div className="card">
