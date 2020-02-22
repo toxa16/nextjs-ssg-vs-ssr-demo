@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "backend:start": "node ./backend/index.js",
+    "next:start": "next start",
+    "start": "concurrently \"npm:backend:start\" \"npm:next:start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -23,6 +25,7 @@
     "antd": "^3.26.11",
     "chart.js": "^2.9.3",
     "common-tags": "^1.8.0",
+    "concurrently": "^5.1.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "isomorphic-unfetch": "^3.0.0",
