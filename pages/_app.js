@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import 'antd/dist/antd.css';
+// overriding common Ant styles with the Bootstrap ones
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from '../components/navbar';

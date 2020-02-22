@@ -1,7 +1,5 @@
+import Blog from '../../components/blog';
+
 export default function BlogSSR() {
-  return (
-    <div>
-      BlogSSR
-    </div>
-  );
+  return <Blog />;;
 }
