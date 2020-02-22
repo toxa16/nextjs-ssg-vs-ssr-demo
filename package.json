@@ -7,7 +7,7 @@
     "build": "next build",
     "backend:start": "node ./backend/index.js",
     "next:start": "next start",
-    "start": "concurrently \"npm:backend:start\" \"npm:next:start\"",
+    "start": "concurrently --kill-others \"npm:backend:start\" \"npm:next:start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
