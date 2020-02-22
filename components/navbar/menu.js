@@ -1,9 +1,12 @@
 import ActiveLink from './active-link';
 
-export default function Menu() {
+/**
+ * Navbar menu component.
+ */
+export default function Menu({ onLinkClick }) {
   return (
     <ul className="navbar-nav">
-      <li className="nav-item">
+      <li className="nav-item" onClick={onLinkClick}>
         <ActiveLink
           href="/ssg/blog"
           label="Blog SSG"
@@ -18,7 +21,7 @@ export default function Menu() {
         />
       </li>
 
-      <li className="nav-item">
+      <li className="nav-item" onClick={onLinkClick}>
         <ActiveLink
           href="/metrics"
           label="Metrics"

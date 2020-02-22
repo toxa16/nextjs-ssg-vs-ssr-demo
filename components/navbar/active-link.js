@@ -1,6 +1,9 @@
 import { useRouter } from 'next/router';
 
-function ActiveLink({ href, label, isStatic = false }) {
+/**
+ * Routing link component with active state.
+ */
+export default function ActiveLink({ href, label, isStatic = false }) {
   const router = useRouter();
 
   function handleClick(e) {
@@ -26,5 +29,3 @@ function ActiveLink({ href, label, isStatic = false }) {
     </a>
   );
 }
-
-export default ActiveLink;
